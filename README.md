@@ -2,9 +2,14 @@
 
 Simple script to get your private and public IP addresses
 
+## Dependenccies
+* Python 3 (this was written with Python 3.5)
+* netinterfaces
+
 ## How to use
 
 1. `git clone https://github.com/edjroz/ip.git`
+    * Install the dependencies `pip install netinterfaces`
 2. Modify the `get_priv()` method with the desired interface if needed
 3. Run `python3 get_ip` (use parameters if you don't want the private ip address or want both addresses)
 
